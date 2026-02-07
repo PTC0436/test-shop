@@ -41,6 +41,12 @@ async function render() {
       break;
     }
   }
+
+  const modalEl = document.getElementById("modal");
+  const modal = bootstrap.Modal.getInstance(modalEl);
+
+  modal?.hide();
+
   window.scrollTo({
     top: 0,
     behavior: "smooth",
