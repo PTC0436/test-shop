@@ -1,4 +1,4 @@
-import products from "/test/database/products.js";
+import products from "/database/products.js";
 
 export const getProductsList = async (filter) => {
   // console.log(filter);

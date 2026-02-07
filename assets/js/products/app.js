@@ -1,4 +1,4 @@
-import matchRoute from "/test/assets/js/products/matchRoute.js";
+import matchRoute from "/assets/js/products/matchRoute.js";
 import getHashPath from "./getHashPath.js";
 import setUpSlider from "./setUpSlider.js";
 import { setUpFilter, setUpFilterItem } from "./filter.js";

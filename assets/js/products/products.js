@@ -722,7 +722,7 @@ function renderProductDetailBreadcrumb(name) {
     <div aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href=${HOME_DOMAIN}>Home</a></li>
-        <li class="breadcrumb-item"><a href=${PRODUCT_DOMAIN}>Products</a></li>
+        <li class="breadcrumb-item"><a href=${PRODUCT_DOMAIN + "#/"}>Products</a></li>
         <li class="breadcrumb-item active" aria-current="page">${name}</li>
       </ol>
     </div>

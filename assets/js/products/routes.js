@@ -1,7 +1,7 @@
 import {
   getProductsListByID,
   getProductsList,
-} from "/test/assets/js/services/productsAPI.js";
+} from "/assets/js/services/productsAPI.js";
 import {
   renderProductDetail,
   renderProductHome,
