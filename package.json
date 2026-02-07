@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "convert": "npx sass --watch ./assets/sass:./assets/css/products"
+  },
+  "dependencies": {
+    "sass": "^1.97.3"
+  }
+}
