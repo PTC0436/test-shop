@@ -42,10 +42,9 @@ async function render() {
     }
   }
 
-  const modalEl = document.getElementById("modal");
-  const modal = bootstrap.Modal.getInstance(modalEl);
-
-  modal?.hide();
+  document.querySelectorAll(".modal.show").forEach((modalEl) => {
+    bootstrap.Modal.getOrCreateInstance(modalEl).hide();
+  });
 
   window.scrollTo({
     top: 0,
