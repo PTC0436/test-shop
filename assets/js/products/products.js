@@ -111,7 +111,7 @@ async function renderProductHomeFilter() {
           ${tagList
             .map(
               (tag) => `
-            <button class="filter__item filter__item-tag" data-tag="${tag}" data-bs-dismiss="modal" aria-label="Close">${tag}</button>
+            <button class="filter__item filter__item-tag" data-tag="${tag}" data-bs-dismiss="modal" aria-label="Close"git >${tag}</button>
           `,
             )
             .join("")}
