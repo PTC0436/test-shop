@@ -69,10 +69,6 @@ export function setUpFilter() {
   document.addEventListener("click", (e) => {
     const btnClear = e.target.closest(".filter__clear");
     if (btnClear) {
-      const modalEl = document.getElementById("exampleModal");
-      const modal = bootstrap.Modal.getInstance(modalEl);
-      modal?.hide();
-
       if (btnClear.classList.contains("filter__clear-brand"))
         handleClearBrand();
       else if (btnClear.classList.contains("filter__clear-gender"))
